@@ -1,3 +1,3 @@
 #  quiz.js
 
-<a href="https://kohtaro0.github.io/quiz.js/" target="_blank">click here</a>
+<a href="https://kohtaro0.github.io/quiz.js/">click here</a>
