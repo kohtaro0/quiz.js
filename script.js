@@ -4,18 +4,22 @@ const quizData = [
       choices: [
         {
           text: "選択肢A",
+          imagePath: "./photos/a.jpg",
           isCorrect: true
         },
         {
           text: "選択肢B",
+          imagePath: "./photos/b.jpg",
           isCorrect: false
         },
         {
           text: "選択肢C",
+          imagePath: "./photos/c.jpg",
           isCorrect: false
         },
         {
           text: "選択肢D",
+          imagePath: "./photos/d.jpg",
           isCorrect: false
         }
       ]
@@ -25,18 +29,22 @@ const quizData = [
       choices: [
         {
           text: "選択肢A",
+          imagePath: "./photos/d.jpg",
           isCorrect: true
         },
         {
           text: "選択肢B",
+          imagePath: "./photos/c.jpg",
           isCorrect: false
         },
         {
           text: "選択肢C",
+          imagePath: "./photos/a.jpg",
           isCorrect: false
         },
         {
           text: "選択肢D",
+          imagePath: "./photos/b.jpg",
           isCorrect: false
         }
       ]
