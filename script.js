@@ -62,13 +62,6 @@ function showQuiz(index) {
   quiz.choices.forEach((choice, choiceIndex) => {
     const choiceElement = document.createElement("div");
     choiceElement.className = "choice-item"; // 選択肢の要素のクラス名を追加
-    const choiceImage = document.createElement("img");
-    choiceImage.src = choice.imagePath;
-    choiceImage.alt = choice.text;
-
-    // CSSで画像の表示サイズを調整
-    choiceImage.style.width = "200px";
-    choiceImage.style.height = "auto";
 
     // 選択肢がクリックされた時の処理
     choiceElement.addEventListener("click", () => {
